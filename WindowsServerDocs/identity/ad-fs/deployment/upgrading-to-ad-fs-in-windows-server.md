@@ -27,7 +27,7 @@ Before you can upgrade the farm behavior level, you must meet the following prer
 
 - If you're also using Windows Server Web Application Proxy, deploy the target Windows Server version on a new computer, apply all Windows Updates, and install the Remote Access server role and Web Application Proxy role service. For more information, see [Working with Web Application Proxy](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn584113(v=ws.11)).
 
-- If you're upgrading to AD FS in Windows Server 2016 or later, the farm upgrade requires the AD schema to be at least level 85. If you're upgrading to in Windows Server AD FS 2019 or later, the AD schema must be at least 88. For more information about upgrading your domain, see [Upgrade domain controllers to a newer version of Windows Server](../../ad-ds/deploy/upgrade-domain-controllers.md).
+- If you're upgrading to AD FS in Windows Server 2016 or later, the farm upgrade requires the AD schema to be at least level 85. For more information about upgrading your domain, see [Upgrade domain controllers to a newer version of Windows Server](../../ad-ds/deploy/upgrade-domain-controllers.md).
 
 - Have a defined time frame planned for completion. It's not recommended to operate a mixed mode state for an extended period of time. Leaving AD FS in a mixed mode state might cause issues with the farm.
 
